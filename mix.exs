@@ -33,22 +33,21 @@ defmodule MyApi.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.4.0"},
+      {:phoenix, "~> 1.4.3"},
       {:phoenix_pubsub, "~> 1.1"},
       {:phoenix_ecto, "~> 4.0"},
-      {:ecto_sql, "~> 3.0"},
+      {:ecto_sql, "~> 3.1.1"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"},
-      {:comeonin, "~> 4.0"},
-      {:bcrypt_elixir, "~> 1.0"},
-      {:guardian, "~> 1.0"},
-      {:absinthe, "~> 1.4.6"},
-      {:absinthe_phoenix, "~> 1.4.0"},
-      {:absinthe_plug, "~> 1.4.2"},
-      {:absinthe_relay, "~> 1.4.0"},
-      {:dataloader, "~> 1.0.0"}
+      {:plug_cowboy, "~> 2.0.2"},
+      {:bcrypt_elixir, "~> 2.0"},
+      {:guardian, "~> 1.2.1"},
+      {:absinthe, "~> 1.4.16"},
+      {:absinthe_phoenix, "~> 1.4.3"},
+      {:absinthe_plug, "~> 1.4.6"},
+      {:absinthe_relay, "~> 1.4.6"},
+      {:dataloader, "~> 1.0.5"}
     ]
   end
 
